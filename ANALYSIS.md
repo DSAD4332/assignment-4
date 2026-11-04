@@ -2,12 +2,13 @@
 
 ## Environment and commands
 
-- Language: Java (record the exact JDK version used).
-- OS / CPU / RAM: fill in from the machine used for final testing.
-- Build, run and test commands: record the exact commands used in your repository.
-- Final commit URL: add the URL of your submitted repository commit.
-
-Do not invent benchmark measurements. Complete the benchmark tables after running the implementation in the course environment.
+- Language: Microsoft OpenJDK 21.0.12
+- OS: Windows 10
+- CPU: Intel Core i3-5005U 2 GHz
+- RAM: 4 GB
+- Build: `javac Java/source/*.java`
+- Test: `java -cp Java/source AlgorithmsTestRunner`
+- Run: `java -cp Java/source Main`
 
 ## Algorithm explanations
 

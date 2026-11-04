@@ -7,8 +7,8 @@ These are request fixtures for the eight commands in `CONTRACTS.md`. Each reques
 The small Java test runner used for these checks is `AlgorithmsTestRunner.java`.
 
 ```bash
-javac Algorithms.java AlgorithmsTestRunner.java
-java AlgorithmsTestRunner
+javac Java/source/*.java
+java -cp Java/source AlgorithmsTestRunner
 ```
 
 Compilation succeeded. The compiler printed only the unchecked-operation note caused by casting parsed edge arrays in `tree`. All 24 assertions passed. The actual outputs below are the outputs observed in that run. The map/list display from the runner is shown as equivalent JSON for readability.
