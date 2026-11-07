@@ -1,5 +1,6 @@
 # Assignment 4 — analysis
 
+
 ## Environment and commands
 
 - Language: Microsoft OpenJDK 21.0.12

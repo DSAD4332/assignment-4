@@ -1,5 +1,6 @@
 # Assignment 4 — TESTS
 
+
 These are request fixtures for the eight commands in `CONTRACTS.md`. Each request is a single JSON object, as required by the JSON Lines interface. The expected and actual values below were checked by calling the corresponding `Algorithms` method with the request fields represented as Java maps/lists.
 
 ## How to run the local checks

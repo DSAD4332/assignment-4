@@ -3,6 +3,7 @@ import java.util.*;
 public final class Algorithms {
     private Algorithms() {}
 
+
     private static String str(Map<String, Object> in, String key) {
         return (String) in.get(key);
     }
